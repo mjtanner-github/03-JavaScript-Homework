@@ -20,6 +20,9 @@ This week’s homework required us to implement a random password generator base
   - If the user selected (n)either, return an empty array.
 
 3.  Generated the random password string.
+  - Iterate one random character.
+    #### Multiple the length of the selection pool by a psuedo-random variable (0.0 - 1.0) and take the floor.
+    #### 
   
   
 * Number of characters, 8 - 128
