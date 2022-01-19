@@ -26,7 +26,7 @@ This week’s homework required us to implement a random password generator base
   - Iterate the number of characters indicated by the user.
   - Typecast the array to a string.  
   
-* Number of characters, 8 - 128
+* Solicit the desired number of characters, 8 - 128, from the user. 
 
 The user is prompted for the number of desired random characters using prompt box:
 
@@ -35,7 +35,7 @@ The user is prompted for the number of desired random characters using prompt bo
 "getNumbericInpuy", the method called by the prompt box, continues to call itself until a numeric value between 8 and 128 inclusive is entered.
 
 
-* Uppercase, lowercase, both or neither. 
+* Get the user preference for uppercase, lowercase, both or neither. 
 
 The user may select (u)ppercase, (l)owercase, (b)oth or (n)either characters with the ensuing prompt box.
 
@@ -44,7 +44,7 @@ The user may select (u)ppercase, (l)owercase, (b)oth or (n)either characters wit
 getAlphaCharInput continues to call itself until the user input (shifted to lowercase) is within it's calling "returnConstraint" parameter. 
 
 
-* Numerals, and/or special characters.
+* Get the user preference for numerals, and/or special characters.
 
 The user may select numeric characters and/or special characters by confirming the following two confirmation boxes.
 
