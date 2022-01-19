@@ -47,3 +47,9 @@ In this instance, the user selected (n)either and canceled both numeric and spec
 In this instance, the user has selected 128 (b)oth uppercase and lowercase and included numeric and special characters.
 
 ![The user may select special characters by confirming the special characters confirmation box.](./Assets/output-all.png)
+
+See the code for this project at:
+https://github.com/mjtanner-github/03-JavaScript-Homework
+
+See a working model at:  
+https://mjtanner-github.github.io/03-JavaScript-Homework/
