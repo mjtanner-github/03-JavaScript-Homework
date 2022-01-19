@@ -7,8 +7,21 @@ This week’s homework required us to implement a random password generator base
 
 ### Top Down Design
 1. Generate a series of user prompts to solicit and store user password criteria. 
+  A. Solicit the character length of the password from the user with a prompt box.
+  B. Solicit (u)ppercase, (l)owercase, (b)oth or (n)either from the user with a prompt box.
+  C. Solicit is the user prefers the use of numeric characters with a confirmation box.
+  D. Solicit is the user prefers the use of special characters with a confirmation box.
+  E. If no character type sets are selected, cast a user error. 
   
+2. Assemble the password selection pool based on the user provided criteria.
+  A. If the user selected (u)ppercase only, return the uppercase set of characters.
+  B. If the user selected (l)owercase only, return the lowercase set of characters.
+  C. If the user selected (b)oth uppercase and lowercase, return the lowercase concatenated to the uppercase set of characters.
+  D. If the user selected (n)either, return an empty array.
 
+3.  Generated the random password string.
+  
+  
 * Number of characters, 8 - 128
 
 The user is prompted for the number of desired random characters using prompt box:
