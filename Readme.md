@@ -5,8 +5,9 @@ This week’s homework required us to implement a random password generator base
 
 ## Implementation and Evaluation Criteria:
 
-### Generate a series of user prompts to solicit and store user password criteria. 
-
+###Top Down Design
+1. Generate a series of user prompts to solicit and store user password criteria. 
+  
 
 * Number of characters, 8 - 128
 
