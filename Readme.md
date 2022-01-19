@@ -21,9 +21,10 @@ This week’s homework required us to implement a random password generator base
 
 3.  Generated the random password string.
   - Iterate one random character.
-    ##### Multiple the length of the selection pool by a psuedo-random variable (0.0 - 1.0) and take the floor.
-    #### 
-  
+    ##### Return as the selection index the floor of the product of the length of the selection array and a psuedo-random variable (0.0 - 1.0).
+    ##### Return the character fron the selecton array indexed by the selection index.
+  - Iterate the number of characters indicated by the user.
+  - Typecast the array to a string.  
   
 * Number of characters, 8 - 128
 
