@@ -5,7 +5,7 @@ This week’s homework required us to implement a random password generator base
 
 ## Implementation and Evaluation Criteria:
 
-###Top Down Design
+### Top Down Design
 1. Generate a series of user prompts to solicit and store user password criteria. 
   
 
